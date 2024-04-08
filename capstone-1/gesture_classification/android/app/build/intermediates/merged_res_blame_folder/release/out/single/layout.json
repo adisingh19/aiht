@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "org.tensorflow.lite.examples.gestureclassification.app-mergeReleaseResources-48:/layout/fragment_camera.xml",
+        "source": "org.tensorflow.lite.examples.gestureclassification.app-main-50:/layout/fragment_camera.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.gestureclassification.app-mergeReleaseResources-48:/layout/info_bottom_sheet.xml",
+        "source": "org.tensorflow.lite.examples.gestureclassification.app-main-50:/layout/info_bottom_sheet.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.gestureclassification.app-mergeReleaseResources-48:/layout/activity_main.xml",
+        "source": "org.tensorflow.lite.examples.gestureclassification.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.gestureclassification.app-mergeReleaseResources-48:/layout/item_classification_result.xml",
+        "source": "org.tensorflow.lite.examples.gestureclassification.app-main-50:/layout/item_classification_result.xml"
+    }
+]

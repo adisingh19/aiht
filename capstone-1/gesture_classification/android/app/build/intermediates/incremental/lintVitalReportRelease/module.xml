@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app"
+    name=":app"
+    type="APP"
+    maven="TFLite Gesture Classification:app:"
+    gradle="7.2.0"
+    buildFolder="build"
+    bootClassPath="/Users/adityasingh/Library/Android/sdk/platforms/android-32/android.jar:/Users/adityasingh/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-32"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

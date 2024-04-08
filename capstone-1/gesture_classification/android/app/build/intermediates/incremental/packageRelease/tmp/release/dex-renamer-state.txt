@@ -1,0 +1,7 @@
+#Wed Feb 28 10:38:10 IST 2024
+base.0=/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+base.1=/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

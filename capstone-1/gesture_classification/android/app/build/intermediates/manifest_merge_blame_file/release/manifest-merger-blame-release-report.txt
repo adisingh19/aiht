@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="org.tensorflow.lite.examples.gestureclassification"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml
+11
+12    <!-- Enable instant app support -->
+13    <dist:module dist:instant="true" />
+13-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:8:5-40
+13-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:8:18-37
+14
+15    <!-- Declare features -->
+16    <uses-feature android:name="android.hardware.camera" />
+16-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:11:5-60
+16-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:11:19-57
+17
+18    <!-- Declare permissions -->
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:14:5-65
+19-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:14:22-62
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23
+24    <application
+24-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:15:5-46:19
+25        android:allowBackup="true"
+25-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:16:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.8.0] /Users/adityasingh/.gradle/caches/transforms-3/26bb938455b293699c783508105026c1/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:17:9-43
+29        android:label="@string/app_name"
+29-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:18:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:19:9-54
+31        android:supportsRtl="true"
+31-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:20:9-35
+32        android:taskAffinity="" >
+32-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:21:9-32
+33        <activity
+33-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:24:9-45:20
+34            android:name="org.tensorflow.lite.examples.gestureclassification.MainActivity"
+34-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:25:13-41
+35            android:clearTaskOnLaunch="true"
+35-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:26:13-45
+36            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+36-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:27:13-91
+37            android:exported="true"
+37-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:28:13-36
+38            android:resizeableActivity="true"
+38-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:29:13-46
+39            android:rotationAnimation="seamless"
+39-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:30:13-49
+40            android:theme="@style/AppTheme" >
+40-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:31:13-44
+41
+42            <!-- Main app intent filter -->
+43            <intent-filter>
+43-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:35:13-39:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:36:17-69
+44-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:36:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:38:17-77
+46-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:38:27-74
+47            </intent-filter>
+48
+49            <!-- Declare notch support -->
+50            <meta-data
+50-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:42:13-44:40
+51                android:name="android.notch_support"
+51-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:43:17-53
+52                android:value="true" />
+52-->/Volumes/adi/study/aiht/examples/lite/examples/gesture_classification/android/app/src/main/AndroidManifest.xml:44:17-37
+53        </activity>
+54
+55        <uses-library
+55-->[androidx.window:window:1.1.0-alpha03] /Users/adityasingh/.gradle/caches/transforms-3/71f966dfe233cfa6f3c63c7cd7ddccb6/transformed/window-1.1.0-alpha03/AndroidManifest.xml:23:9-25:40
+56            android:name="androidx.window.extensions"
+56-->[androidx.window:window:1.1.0-alpha03] /Users/adityasingh/.gradle/caches/transforms-3/71f966dfe233cfa6f3c63c7cd7ddccb6/transformed/window-1.1.0-alpha03/AndroidManifest.xml:24:13-54
+57            android:required="false" />
+57-->[androidx.window:window:1.1.0-alpha03] /Users/adityasingh/.gradle/caches/transforms-3/71f966dfe233cfa6f3c63c7cd7ddccb6/transformed/window-1.1.0-alpha03/AndroidManifest.xml:25:13-37
+58        <uses-library
+58-->[androidx.window:window:1.1.0-alpha03] /Users/adityasingh/.gradle/caches/transforms-3/71f966dfe233cfa6f3c63c7cd7ddccb6/transformed/window-1.1.0-alpha03/AndroidManifest.xml:26:9-28:40
+59            android:name="androidx.window.sidecar"
+59-->[androidx.window:window:1.1.0-alpha03] /Users/adityasingh/.gradle/caches/transforms-3/71f966dfe233cfa6f3c63c7cd7ddccb6/transformed/window-1.1.0-alpha03/AndroidManifest.xml:27:13-51
+60            android:required="false" />
+60-->[androidx.window:window:1.1.0-alpha03] /Users/adityasingh/.gradle/caches/transforms-3/71f966dfe233cfa6f3c63c7cd7ddccb6/transformed/window-1.1.0-alpha03/AndroidManifest.xml:28:13-37
+61
+62        <service
+62-->[androidx.camera:camera-camera2:1.2.0-alpha04] /Users/adityasingh/.gradle/caches/transforms-3/412687f18a68d861caf0c2bc6da03bd0/transformed/camera-camera2-1.2.0-alpha04/AndroidManifest.xml:24:9-33:19
+63            android:name="androidx.camera.core.impl.MetadataHolderService"
+63-->[androidx.camera:camera-camera2:1.2.0-alpha04] /Users/adityasingh/.gradle/caches/transforms-3/412687f18a68d861caf0c2bc6da03bd0/transformed/camera-camera2-1.2.0-alpha04/AndroidManifest.xml:25:13-75
+64            android:enabled="false"
+64-->[androidx.camera:camera-camera2:1.2.0-alpha04] /Users/adityasingh/.gradle/caches/transforms-3/412687f18a68d861caf0c2bc6da03bd0/transformed/camera-camera2-1.2.0-alpha04/AndroidManifest.xml:26:13-36
+65            android:exported="false" >
+65-->[androidx.camera:camera-camera2:1.2.0-alpha04] /Users/adityasingh/.gradle/caches/transforms-3/412687f18a68d861caf0c2bc6da03bd0/transformed/camera-camera2-1.2.0-alpha04/AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.camera:camera-camera2:1.2.0-alpha04] /Users/adityasingh/.gradle/caches/transforms-3/412687f18a68d861caf0c2bc6da03bd0/transformed/camera-camera2-1.2.0-alpha04/AndroidManifest.xml:30:13-32:89
+67                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+67-->[androidx.camera:camera-camera2:1.2.0-alpha04] /Users/adityasingh/.gradle/caches/transforms-3/412687f18a68d861caf0c2bc6da03bd0/transformed/camera-camera2-1.2.0-alpha04/AndroidManifest.xml:31:17-103
+68                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+68-->[androidx.camera:camera-camera2:1.2.0-alpha04] /Users/adityasingh/.gradle/caches/transforms-3/412687f18a68d861caf0c2bc6da03bd0/transformed/camera-camera2-1.2.0-alpha04/AndroidManifest.xml:32:17-86
+69        </service>
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/adityasingh/.gradle/caches/transforms-3/02c7f9768e9d1045aff170c4731bb2ff/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/adityasingh/.gradle/caches/transforms-3/02c7f9768e9d1045aff170c4731bb2ff/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+73            android:authorities="org.tensorflow.lite.examples.gestureclassification.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/adityasingh/.gradle/caches/transforms-3/02c7f9768e9d1045aff170c4731bb2ff/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/adityasingh/.gradle/caches/transforms-3/02c7f9768e9d1045aff170c4731bb2ff/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/adityasingh/.gradle/caches/transforms-3/02c7f9768e9d1045aff170c4731bb2ff/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.2.0] /Users/adityasingh/.gradle/caches/transforms-3/02c7f9768e9d1045aff170c4731bb2ff/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.2.0] /Users/adityasingh/.gradle/caches/transforms-3/02c7f9768e9d1045aff170c4731bb2ff/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/adityasingh/.gradle/caches/transforms-3/cc4aa987305210fa8783b29b968161a6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/adityasingh/.gradle/caches/transforms-3/cc4aa987305210fa8783b29b968161a6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/adityasingh/.gradle/caches/transforms-3/cc4aa987305210fa8783b29b968161a6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+81        </provider>
+82    </application>
+83
+84</manifest>
